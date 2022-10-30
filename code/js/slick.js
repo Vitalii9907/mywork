@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $('.slider').slick({
+    arrows:true,
+    dots:false,
+    speed:1000,
+    autoplay:true,
+    autoplaySpeed:5000,
+    pauseOnFocus:true,
+    pauseOnHover:true,
+    waitForAnimate:false,
+  });
+});
