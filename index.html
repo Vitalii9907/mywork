@@ -20,15 +20,15 @@
 
         <hero class="hero">
 
-            <div class="hero-poke">
-      <h1 class="hero-title">Enjoy Your Favorite <br> Food From Anywhere</h1>
+            <div class="hero__poke">
+      <h1 class="hero__title">Enjoy Your Favorite <br> Food From Anywhere</h1>
       
-      <p class="hero-wrap">
+      <p class="hero__wrap">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         varius enim in eros elementum tristique. Duis cursus, mi quis viverra
         ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
       </p>
-      <button type="button" class="hero-button">Order Now</button>  
+      <button type="button" class="hero__button">Order Now</button>  
     </div>
     
 <!-- Slider main container -->
@@ -38,9 +38,57 @@
     <div class="swiper-wrapper">
       <!-- Slides -->
      
-      <div class="swiper-slide"><img class="img-swiper" src="./img/swiper1.jpg"></div>
-      <div class="swiper-slide"><img class="img-swiper" src="./img/swiper2.jpg"></div>
-      <div class="swiper-slide"><img class="img-swiper" src="./img/swiper3.jpg"></div>
+      <div class="swiper-slide">
+        <picture>
+          <source
+              srcset="
+              ./img/tab/falafel-tab-1x.jpg,
+              ./img/tab/falafel-tab-2x.jpg"
+              media="(min-width:768px)"
+               />
+               <source
+               srcset="
+               ./img/pc/falafel-pc-1x.jpg,
+               ./img/pc/falafel-pc-2x.jpg"
+              media="(min-width:1280px)"
+               /> 
+        <img class="img-swiper" src="./img/pc/falafel-pc-1x.jpg">
+      </picture>
+      </div>
+      <picture>
+        <source
+              srcset="
+              ./img/tab/salad-tab-1x.jpg,
+              ./img/tab/salad-tab-2x.jpg"
+              media="(min-width:768px)"
+               />
+               <source
+               srcset="
+               ./img/pc/salad-pc-1x.jpg,
+               ./img/pc/salad-pc-2x.jpg"
+              media="(min-width:1280px)"
+               /> 
+      <div class="swiper-slide">
+        <img class="img-swiper" src="./img/pc/salad-pc-1x.jpg">
+      </picture>
+      </div>
+      <div class="swiper-slide">
+        <picture>
+          <source
+              srcset="
+              ./img/tab/avocado-tab-1x.jpg,
+              ./img/tab/avocado-tab-2x.jpg"
+              media="(min-width:768px)"
+               />
+               <source
+               srcset="
+               ./img/pc/avocado-pc-1x.jpg,
+               ./img/pc/avocado-pc-2x.jpg"
+              media="(min-width:1280px)"
+               /> 
+        <img class="img-swiper" src="./img/pc/avocado-pc-1x.jpg">
+      </picture>
+      </div>
      
     </div>
 
