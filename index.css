@@ -218,6 +218,13 @@ z-index: 20;
   .slider .slick-arrow.slick-next:hover{
     background-color:#7EB101;
   }
+
+  .slider .slicl:hover {
+    -webkit-box-shadow: 0 20px 55px 13px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 20px 55px 13px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 55px 13px rgba(0, 0, 0, 0.2);
+  }
+
    }
 
 
