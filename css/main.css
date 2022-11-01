@@ -98,10 +98,7 @@ font-family: inherit;
 
 
 
-.picture{
-  margin: 20px;
-  
-}
+
 
 /* Swiper slide */
 
@@ -116,9 +113,10 @@ font-family: inherit;
 margin-bottom: 30px;
 }
 
-.hero{
+.hero-design{
   display: flex;
-  justify-content: baseline;
+  justify-content: space-between;
+  position: relative;
 }
 
 .hero-wrap{
@@ -140,7 +138,7 @@ max-width: 336px;
     position: relative;
     box-sizing: border-box;
     background: #FEFEFE;
-    margin-top: 149px;
+    
   }
   .img-swiper{
     width: 292px;
@@ -168,10 +166,14 @@ max-width: 336px;
       background: #FEFEFE;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
-  right: 5px;
+  right: 32px;
   width: 34px;
   height: 28px;
   
+  }
+  .hero-button{
+    position: absolute;
+    margin-top: 200px;
   }
 }
 
@@ -188,15 +190,12 @@ max-width: 336px;
 @media screen and (min-width: 1280px){
 
 
-  .hero{
-    display: flex;
+ .hero-button{
+  margin-top: 150px;
+ }
+  .hero-design{
+    top: 50%;
   }
-
-  .hero-poke {
-    padding-top: 159px;
-    padding-right: 152px;
-    
-   }
    
 .hero-wrap{
   max-width: 490px;
@@ -209,6 +208,7 @@ max-width: 336px;
   font-size: 48px;
   line-height: 1.2;
   color: #2C2C2C;
+  margin-top: 159px;
   
   }
   .hero-wrap{
@@ -237,6 +237,7 @@ max-width: 336px;
     box-sizing: border-box;
     background: #FEFEFE;
     margin-top: 0;
+    top: -180px;
   }
   
  
